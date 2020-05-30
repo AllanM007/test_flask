@@ -72,8 +72,8 @@ def contact():
 
 @app.route("/mail")
 def mail():
-   msg = Message('Hello', sender = 'mwaranguallan345@gmail.com', recipients = ['mwarangudev101@gmail.com'])
-   msg.body = "Tik Tok Muthafucka"
+   msg = Message('Hello', sender = '', recipients = [''])
+   msg.body = "Tick Tock Muthafucka"
    mail.send(msg)
    return "Sent"
 
